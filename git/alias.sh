@@ -17,5 +17,9 @@ gd() { git diff --stat; }
 gl() { git log --max-count=10 --pretty=florida; }
 # branch
 gb() { git branch; }
+# checkout
+gch() { git checkout $@; }
+# checkout master
+gcm() { git checkout master; }
 # End of git-functions
 ########################
