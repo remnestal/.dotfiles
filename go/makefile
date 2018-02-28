@@ -10,7 +10,7 @@ version:
 .PHONY: install
 install:
 	wget $(GOSOURCE) -O $(TARBALL)
-	sudo tar -C $(INSTALLPATH) -xzf $(TARBALL)
+	sudo tar -C $(INSTALLPATH) --verbose -xzf $(TARBALL)
 	echo "# Added by dotfiles/go/makefile" >> ~/.profile
 	echo "export PATH=$$PATH:$(INSTALLPATH)/go/bin" >> ~/.profile
 	# Run 'source ~/.profile' to reload current shell
