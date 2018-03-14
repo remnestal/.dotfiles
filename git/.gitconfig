@@ -11,6 +11,9 @@
 [pull]
 		ff = only	
 
+[diff]
+		algorithm = patience	
+
 [color]
 		diff = auto
 		status = auto
