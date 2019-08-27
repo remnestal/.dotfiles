@@ -26,4 +26,4 @@
 		untracked = red
 
 [pretty]
-		florida = format:%C(yellow)%h %C(blue)%<(10)(%cr) %C(green)%<(7)%aN %Creset%s%Cred%d
+		florida = format:%C(yellow)%h %C(blue)%<(14)%cr %C(green)%<(18)%aN %Creset%s%Cred%d
