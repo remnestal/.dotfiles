@@ -1,0 +1,13 @@
+insert into ApiClient
+  (customer_id, is_active, req_rate_second, req_rate_minute, search_rate_minute, hours_back)
+values
+  (424, 1, 180, 60, 5, 4320),
+  (426, 1, 180, 60, 5, 4320),
+  (1, 1, 180, 60, 5, 4320);
+
+insert into ApiClientGameAccess
+  (client_id, is_active, req_rate_second, req_rate_minute, search_rate_minute, hours_back)
+values
+  (x  , 1, 180, 60, 5, 4320),
+  (x+1, 1, 180, 60, 5, 4320),
+  (x+2, 1, 180, 60, 5, 4320);

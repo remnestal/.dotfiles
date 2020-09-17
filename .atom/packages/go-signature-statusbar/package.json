@@ -1,0 +1,88 @@
+{
+  "_from": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+  "_id": "go-signature-statusbar@1.2.3",
+  "_inBundle": false,
+  "_integrity": "sha512-+6gzOw2vhoblz1LypDT/gHFc/gh4J0b8fKQ7ceLWq2/39CXwlIxWm/Kv1rN5Y4ojtZgjy5DPe5F7tccbyKqVJQ==",
+  "_location": "/go-signature-statusbar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+  "_shasum": "c0bf47577f30284c78aba83b1e842e29091a160e",
+  "_spec": "https://www.atom.io/api/packages/go-signature-statusbar/versions/1.2.3/tarball",
+  "_where": "/private/var/folders/9f/6nmh5f2x05g3rsv8wc980blh0000gn/T/apm-install-dir-119929-15962-b30gqx.81fb",
+  "activationHooks": [
+    "core:loaded-shell-environment"
+  ],
+  "bugs": {
+    "url": "https://github.com/wndhydrnt/go-signature-statusbar/issues"
+  },
+  "bundleDependencies": false,
+  "configSchema": {
+    "format": {
+      "type": "string",
+      "default": "%F%A %R",
+      "description": "Format of the signature in the status bar, where %F is the name of the function, %A its argument(s) and %R the returned type(s)"
+    }
+  },
+  "consumedServices": {
+    "go-config": {
+      "versions": {
+        "^1.0.0": "consumeGoconfig"
+      }
+    },
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.0.1",
+    "lodash.debounce": "^4.0.8"
+  },
+  "deprecated": false,
+  "description": "Display the signature of the current Go function under cursor in the status bar",
+  "devDependencies": {
+    "standard": "^8.6.0"
+  },
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/wndhydrnt/go-signature-statusbar#readme",
+  "keywords": [
+    "go",
+    "golang",
+    "go-plus",
+    "function",
+    "signature",
+    "statusbar"
+  ],
+  "license": "MIT",
+  "main": "./lib/go-signature-statusbar",
+  "name": "go-signature-statusbar",
+  "package-deps": [
+    "go-plus"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wndhydrnt/go-signature-statusbar.git"
+  },
+  "standard": {
+    "globals": [
+      "advanceClock",
+      "atom",
+      "waitsForPromise"
+    ]
+  },
+  "version": "1.2.3"
+}

@@ -1,0 +1,41 @@
+{
+  "_from": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+  "_id": "language-sql-mysql@0.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-IeqzXZ22euJrW2rFMLhXmtqXqD1Ya8l0rF/9ynxzpg6CV+guVsw0q4xXZO8UOnnszR/KjqAMhtKtrkxg4TUKlg==",
+  "_location": "/language-sql-mysql",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "remote",
+    "raw": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+    "rawSpec": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+    "saveSpec": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+    "fetchSpec": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+  "_shasum": "c134424b1caa39f7b0c2af22d52388f514ed301d",
+  "_spec": "https://www.atom.io/api/packages/language-sql-mysql/versions/0.3.1/tarball",
+  "_where": "/private/var/folders/9f/6nmh5f2x05g3rsv8wc980blh0000gn/T/apm-install-dir-120227-23378-1xbvm70.mt2b",
+  "bugs": {
+    "url": "https://github.com/typester/atom-language-sql-mysql/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Add MySQL keyword highlight to Atom's sql module",
+  "engines": {
+    "atom": "*",
+    "node": "*"
+  },
+  "homepage": "https://github.com/typester/atom-language-sql-mysql",
+  "license": "MIT",
+  "name": "language-sql-mysql",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/typester/atom-language-sql-mysql.git"
+  },
+  "version": "0.3.1"
+}

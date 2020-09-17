@@ -1,0 +1,22 @@
+insert into ApiClient
+  (customer_id, is_active, req_rate_second, req_rate_minute, search_rate_minute, hours_back)
+values
+  (424, 1, 180, 60, 5, 4320),
+  (426, 1, 180, 60, 5, 4320),
+  (1, 1, 180, 60, 5, 4320);
+
+insert into ApiClientGameAccess
+  (client_id, game_id, rest_access_depth, push_access_depth, stripe_product_id)
+values
+  -- User 1 / Abios
+  (1  , 1, 2, 2, "prod_CulieOAC2XFFQu"), -- Dota2 match
+  (1  , 2, 2, 2, "prod_CulieOAC2XFFQu"), -- LoL match
+  (1  , 5, 3, 3, "prod_FAV7sLXgCzc9KG"), -- CS:GO PbP
+  (1  , 12, 1, 1, "prod_Culgkth5RY0H4I"), -- OW series
+  -- User 424, same config as abios
+  (2, 1, 2, 2, "prod_CulieOAC2XFFQu"), -- Dota2 match
+  (2, 2, 2, 2, "prod_CulieOAC2XFFQu"), -- LoL match
+  (2, 5, 3, 3, "prod_FAV7sLXgCzc9KG"), -- CS:GO PbP
+  (2, 12, 1, 1, "prod_Culgkth5RY0H4I"), -- OW series
+  -- User 426
+  (3, 2, 1, 1, "prod_Culgkth5RY0H4I"); -- LoL series
