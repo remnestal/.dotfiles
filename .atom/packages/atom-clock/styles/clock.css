@@ -1,3 +1,0 @@
-body:not(.fullscreen) .atom-clock.fullscreen-hide {
-  display: none !important;
-}

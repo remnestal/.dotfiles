@@ -1,0 +1,13 @@
+atom-clock@0.1.18
+atom-ide-ui@0.13.0
+atom-material-syntax@1.0.8
+atom-material-ui@2.1.3
+color-picker@2.3.0
+go-plus@6.1.0
+go-signature-statusbar@1.2.3
+highlight-colors@0.9.0
+ide-yaml@0.7.1
+language-docker@1.1.8
+language-dot@1.7.0
+language-protobuf@0.7.1
+language-sql-mysql@0.3.1
