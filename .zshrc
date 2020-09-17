@@ -3,7 +3,7 @@ PROMPT="%F{cyan}%D%f %F{cyan}%*%f %B%F{magenta}%n%f%b %B%F{blue}%~%f%b %F{white}
 
 # git functions
 alias g='git'
-alias gb='git branch'
+gb() { git branch $@ }
 gs() { git status $@ }
 gl() { git log --graph --pretty=bayou --abbrev-commit $@ }
 ga() { git add $@; gs $@ }
